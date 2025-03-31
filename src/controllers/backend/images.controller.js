@@ -44,7 +44,7 @@ exports.view = async (request, response) => {
         response.status(200).json({ // डेटा मिल गया, तो 200 (OK) स्टेटस के साथ JSON रिस्पॉन्स देंगे।
             success: true,
             message: "Categories fetched successfully!",
-            imagepath: "http://localhost:5000/uploads/images/",
+            imagepath: "https://node-js-image-upload.onrender.com/uploads/images/",
             data: categories
         });
     } catch (error) {
